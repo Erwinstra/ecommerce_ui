@@ -1,0 +1,27 @@
+Column(
+      children: [
+        const Text(
+          'My Cart',
+          style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        Expanded(
+          child: ListView.separated(
+              itemBuilder: (context, index) {
+                return ListTile(
+                  leading: Image.asset(cartItem.imagePath, height: 10),
+                  title: Column(
+                    children: [
+                      Text(cartItem.name),
+                      Text(cartItem.price),
+                    ],
+                  ),
+                );
+              },
+              separatorBuilder: (context, index) => const SizedBox(height: 15),
+              itemCount: cartItem.cartItems.length),
+        ),
+      ],
+    ),
