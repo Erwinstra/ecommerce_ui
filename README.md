@@ -1,16 +1,17 @@
-# ecommerce_ui
+# E-Commerce UI App
 
-This is a Flutter e-commerce UI app that showcases a modern and responsive design for an online store. The app uses the Provider package for state management, ensuring a clean and efficient architecture. It includes various screens and components typical of an e-commerce application.
+This is a Flutter e-commerce UI app that showcases a modern and responsive design for an online store. The app uses the _`Provider`_ package for state management, ensuring a clean and efficient architecture. It includes various screens and components typical of an e-commerce application.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Home Screen**: Displays a list of products with images, names, and prices.
+- **Cart Management**: Users can add or remove products from their shopping cart.
+- **Provider State Management**: Efficiently manages app state and business logic.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Learning Objectives
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Implementing state management using the _`Provider`_ package.
+- Designing a responsive and modern e-commerce UI.
+- Managing product data and user interactions efficiently.
